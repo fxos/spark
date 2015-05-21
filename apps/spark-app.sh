@@ -11,4 +11,3 @@ git add dist/app
 git commit -m "Deployed to GitHub Pages"
 git push origin :gh-pages
 git subtree push --prefix dist/app origin gh-pages
-rm -rf tmp/$APP

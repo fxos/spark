@@ -14,4 +14,3 @@ git add platforms/firefoxos/www
 git commit -m "Deployed to GitHub Pages"
 git push fxos :gh-pages
 git subtree push --prefix platforms/firefoxos/www fxos gh-pages
-rm -rf tmp/$APP

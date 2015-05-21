@@ -13,4 +13,3 @@ wget https://raw.githubusercontent.com/fxos/sechelt/static/manifest.webapp
 git add CNAME images/icon.png manifest.webapp
 git commit --amend --no-edit
 git push fxos gh-pages
-#rm -rf tmp/$APP

@@ -1,12 +1,16 @@
 hellomake:
-	APP=customizer ./spark-app.sh
-	APP=directory ./spark-app.sh
-	APP=sharing ./spark-app.sh
-	APP=customizer-launcher ./spark-app.sh
-	APP=studio ./raw-app.sh
-	./webmaker.sh
-	./sechelt.sh
-	./irc.sh
-	./foxfooding.sh
-	./hexgl.sh
+	APP=customizer ./apps/spark-app.sh
+	APP=directory ./apps/spark-app.sh
+	APP=sharing ./apps/spark-app.sh
+	APP=customizer-launcher ./apps/spark-app.sh
+	APP=studio ./apps/raw-app.sh
+	./apps/webmaker.sh
+	./apps/sechelt.sh
+	./apps/irc.sh
+	./apps/foxfooding.sh
+	./apps/hexgl.sh
+	./gaia-bump.sh
+	make clean
+
+clean:
 	rm -rf tmp
