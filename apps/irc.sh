@@ -10,4 +10,3 @@ echo "operatorvariant.fxosapps.org" > CNAME
 git add CNAME
 git commit --amend --no-edit
 git push fxos gh-pages
-rm -rf tmp/$APP
