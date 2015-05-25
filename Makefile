@@ -7,7 +7,6 @@ hellomake:
 	./apps/webmaker.sh
 	./apps/sechelt.sh
 	./apps/irc.sh
-	./apps/foxfooding.sh
 	./apps/hexgl.sh
 	./gaia-bump.sh
 	make clean
