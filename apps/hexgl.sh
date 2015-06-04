@@ -7,6 +7,7 @@ git remote add fxos git@github.com:fxos/HexGL.git
 git push fxos :gh-pages
 git checkout -b gh-pages
 echo "$APP.fxosapps.org" > CNAME
-git add CNAME
+cp index.html index-mobile.html
+git add CNAME index-mobile.html
 git commit --amend --no-edit
 git push fxos gh-pages
