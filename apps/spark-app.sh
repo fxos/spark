@@ -2,7 +2,7 @@
 rm -rf tmp/$APP
 git clone git@github.com:fxos/$APP.git tmp/$APP
 cd tmp/$APP
-npm install
+npm install && bower install
 git checkout -b deploy
 npm run build
 rm .gitignore
