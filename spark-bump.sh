@@ -5,7 +5,7 @@ RAW_APPS="studio"
 REMOTE=mozilla-b2g
 
 # Clone the Gaia repo and clean it up.
-git clone git@github.com:$REMOTE/gaia.git tmp/gaia
+git clone git@github.com:$REMOTE/gaia.git tmp/gaia --depth 1
 rm -rf tmp/gaia/distros/spark/apps/
 
 # Copy the Spark apps into the Gaia repo. Exclude hidden and Git files.
