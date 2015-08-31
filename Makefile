@@ -3,7 +3,8 @@ hellomake:
 	APP=directory ./apps/spark-app.sh
 	APP=sharing ./apps/spark-app.sh
 	APP=customizer-launcher ./apps/spark-app.sh
-	APP=studio ./apps/raw-app.sh
+	APP=studio REMOTE=fxos ./apps/raw-app.sh
+	APP=mozspeechcollect REMOTE=andrenatal ./apps/raw-app.sh
 	./apps/webmaker.sh
 	./apps/sechelt.sh
 	./apps/irc.sh
