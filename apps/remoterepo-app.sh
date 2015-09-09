@@ -1,6 +1,6 @@
 #!/bin/bash
 rm -rf tmp/$APP
-git clone git@github.com:fxos/$APP.git tmp/$APP
+git clone git@github.com:$REMOTE/$APP.git tmp/$APP
 cd tmp/$APP
 npm install && bower install
 git checkout -b deploy
