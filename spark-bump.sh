@@ -1,7 +1,7 @@
 # Apps with a pre-built path of ./dist/app
 GAIA_APPS="customizer sharing directory customizer-launcher vaani"
 # Apps with a pre-built path of ./
-RAW_APPS="studio"
+RAW_APPS="studio mozspeechcollect"
 REMOTE=mozilla-b2g
 
 # Clone the Gaia repo and clean it up.

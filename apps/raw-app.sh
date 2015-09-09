@@ -1,6 +1,6 @@
 #!/bin/bash
 rm -rf tmp/$APP
-git clone git@github.com:fxos/$APP.git tmp/$APP
+git clone git@github.com:$REMOTE/$APP.git tmp/$APP
 cd tmp/$APP
 git push origin :gh-pages
 git checkout -b gh-pages
