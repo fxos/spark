@@ -1,5 +1,5 @@
 # Apps with a pre-built path of ./dist/app
-GAIA_APPS="customizer sharing directory customizer-launcher"
+GAIA_APPS="customizer sharing directory customizer-launcher vaani"
 # Apps with a pre-built path of ./
 RAW_APPS="studio"
 REMOTE=mozilla-b2g

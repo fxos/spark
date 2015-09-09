@@ -1,8 +1,9 @@
 hellomake:
-	APP=customizer ./apps/spark-app.sh
-	APP=directory ./apps/spark-app.sh
-	APP=sharing ./apps/spark-app.sh
-	APP=customizer-launcher ./apps/spark-app.sh
+	APP=customizer REMOTE=fxos ./apps/remoterepo-app.sh
+	APP=directory REMOTE=fxos ./apps/remoterepo-app.sh
+	APP=sharing REMOTE=fxos ./apps/remoterepo-app.sh
+	APP=customizer-launcher REMOTE=fxos ./apps/remoterepo-app.sh
+	APP=vaani REMOTE=fxos ./apps/remoterepo-app.sh
 	APP=studio ./apps/raw-app.sh
 	./apps/webmaker.sh
 	./apps/sechelt.sh
