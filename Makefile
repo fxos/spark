@@ -9,6 +9,7 @@ hellomake:
 	./apps/irc.sh
 	./apps/hexgl.sh
 	./gaia-bump.sh
+	./hosted-bump.sh
 	make clean
 
 clean:
